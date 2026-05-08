@@ -13,6 +13,6 @@ int main ()
   {
     total= compra;
   }
-printf( "Total de compra: \n",total);
+printf( "Total de compra: %f\n",total);
 return 0;
 }
