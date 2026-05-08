@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+  float radio=0; 
+  float pi=3.1416;
+  float area= 0;
+  float perimetro= 0;
+
+  printf(" ingrese el valor del radio");
+  scanf("%f", &radio);
+
+
+  printf(" El area del circulo es %f\n", area= pi*(radio*radio));
+  printf(" El perimetro del circulo es %f\n", perimetro=2*pi*radio);
+
+return 0;
+
+
+}
+  
+
