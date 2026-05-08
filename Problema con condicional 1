@@ -3,9 +3,16 @@ int main ()
 {
   float compra=0, total=0;
   printf( "Ingrese la cantidad de su compra: \n");
-  scanf("%d", &compra);
+  scanf("%f", &compra);
 
   if( compra>2500 )
   {
-     total= compra*0.92
-      printf( "Total de compra: \n");
+     total= compra*0.92;
+  }
+  else
+  {
+    total= compra;
+  }
+printf( "Total de compra: \n",total);
+return 0;
+}
