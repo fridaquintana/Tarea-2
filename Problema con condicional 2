@@ -4,17 +4,17 @@ int main ()
   float sueldo=0, sueldototal=0;
 
   printf("Ingrese el sueldo: \n");
-  scanf("%f", &sueldo)
+  scanf("%f", &sueldo);
 
   if(sueldo<1000)
   {
-    sueldototal= sueldo*0.85
+    sueldototal= sueldo+(sueldo*0.85);
   }
   else
   {
-  sueldototal= sueldo*0.88
+  sueldototal= sueldo+(sueldo*0.88);
   }
-  printf(" El suedo total es \n,sueldototal)
+  printf("El suedo total es: %f\n",sueldototal);
   return 0;
 }
   
