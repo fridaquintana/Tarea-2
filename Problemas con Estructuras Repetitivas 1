@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main ()
+{ 
+  int num=0, i=1, multi=0;
+  printf(" Ingrese el numero del cual se quiere conocer su tabla de multiplicar:");
+  scanf("%d", &num);
+
+  for(i=1; i<=10; i++)
+  {
+    multi= num*i;
+    printf( "%d por %d es igual a %d\n" , num,i, multi);
+  }
+return 0;
+}
+
+ 
