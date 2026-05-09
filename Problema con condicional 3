@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main ()
+{ 
+  float distancia_ida, distancia_total, precio_final;
+  int dias_estancia;
+  const float PRECIO_POR_KM = 0.23;
+
+  printf("Ingrese la distancia de ida (en km): ");
+  scanf("%f", &distancia_ida);
+    
+  printf("Ingrese el numero de dias de estancia: ");
+  scanf("%d", &dias_estancia);
+
+  distancia_total = distancia_ida * 2;
+  precio_final = distancia_total * PRECIO_POR_KM;
+
+   if (dias_estancia > 7 && distancia_total > 800) 
+    {
+        precio_final = precio_final * 0.70; // Se cobra el 70% del valor
+        printf("\n¡Se ha aplicado un descuento del 30%%!\n");
+    }
+
+    printf("El precio total del ticket es: $%.2f\n", precio_final);
+return 0;
+}
