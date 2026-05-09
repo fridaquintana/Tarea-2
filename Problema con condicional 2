@@ -9,7 +9,12 @@ int main ()
   if(sueldo<1000)
   {
     sueldototal= sueldo*0.85
-
-
+  }
+  else
+  {
+  sueldototal= sueldo*0.88
+  }
+  printf(" El suedo total es \n,sueldototal)
+  return 0;
 }
   
