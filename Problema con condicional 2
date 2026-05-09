@@ -1,1 +1,14 @@
+#include <stdio.h>
+int main ()
+{
+  float sueldo=0;
 
+  printf("Ingrese el sueldo: \n");
+  scanf("%f", &sueldo)
+
+  if(100<)
+  {
+
+
+}
+  
