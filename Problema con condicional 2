@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main ()
 {
-  float sueldo=0;
+  float sueldo=0, sueldototal=0;
 
   printf("Ingrese el sueldo: \n");
   scanf("%f", &sueldo)
 
-  if(100<)
+  if(sueldo<1000)
   {
+    sueldototal= sueldo*0.85
 
 
 }
