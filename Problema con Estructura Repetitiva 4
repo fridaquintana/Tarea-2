@@ -1,7 +1,16 @@
-int main ()
 #include <stdio.h>
+int main ()
+
 { 
-  int num=1;
+  int num=1, producto=1 , n;
+  printf(" Ingrese el numero n de cuantos numeros se quiera calcular el producto de los primeros numeros naturales:");
+  scanf ( "%d", &n);
   
-  while( num< 9)
-  {
+  while( num<= n)
+  { 
+   producto= producto* num;
+  num= num + 1;
+  }
+  printf(" El producto de los primeros %d numeros naturales es: %d\n",n,  producto);
+return 0;
+}
