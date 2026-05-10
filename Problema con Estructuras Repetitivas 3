@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main ()
-{ int num=10, suma=0;
+{ 
+  int num=10, suma=0;
 
   while ( num<=50)
   {
