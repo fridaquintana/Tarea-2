@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{ int num=10, suma=0;
+
+  while ( num<=50)
+  {
+    suma= suma+num;
+    num= num+2;
+  }
+    printf( " La suma total de los numeros pares entre 10 y 50 es: %d\n",suma );
+  return 0;
+}
+
