@@ -2,9 +2,23 @@
 int main ()
 {
    int arreglo[n];
+   int suma=0;
 
    printf("Ingrese el numero de elementos del arreglo: ");
     scanf("%d", &n);
 
    for ( i=0; i<=n; i++)
    {
+      printf("Ingrese el  %d numero , n);
+      scanf("%d", &arreglo[i];
+   }
+
+    for ( i=0; i<=n; i++)
+      suma= suma+ arreglo[i]
+
+   {
+   printf(" La suma total es %d, n
+
+}
+ return 0;
+}
