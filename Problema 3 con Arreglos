@@ -15,9 +15,9 @@ int main ()
    }
     for ( i=0; i<n; i++)
      {
-        if ( arreglo[i]==0);
+        if ( arreglo[i]==0)
          { 
-            nulo= nulo+1
+            nulo= nulo+1;
          }
 
           else if ( arreglo[i]>0)
@@ -29,3 +29,11 @@ int main ()
             negativos=negativos+1;          
          } 
      
+   }
+   
+printf(" Numero de nulos %d\n", nulo);
+printf("Numero de positivos %d\n", positivos);
+printf("Numero de negativos %d\n", negativos);
+return 0;
+}
+
