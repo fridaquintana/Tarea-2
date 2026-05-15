@@ -1,4 +1,10 @@
 #include <stdio.h>
 int main ()
 {
-   int n, 
+   int arreglo[n];
+
+   printf("Ingrese el numero de elementos del arreglo: ");
+    scanf("%d", &n);
+
+   for ( i=0; i<=n; i++)
+   {
