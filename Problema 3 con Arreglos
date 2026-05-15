@@ -2,7 +2,7 @@
 int main ()
 { 
    int n,i,b ;
-   int nulo=0, positivo=0, negativo=0;
+   int nulo=0, positivos=0, negativos=0;
 
    printf("Ingrese el numero de elementos del arreglo: ");
     scanf("%d", &n);
@@ -15,6 +15,17 @@ int main ()
    }
     for ( i=0; i<n; i++)
      {
-        if ( arreglo[i]==b);
+        if ( arreglo[i]==0);
          { 
             nulo= nulo+1
+         }
+
+          else if ( arreglo[i]>0)
+      { 
+        positivos= positivos+1;
+      }
+        else 
+        {  
+            negativos=negativos+1;          
+         } 
+     
